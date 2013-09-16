@@ -126,26 +126,19 @@
         </dependencyManagement>
         
         <build>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.felix</groupId>
-                    <artifactId>maven-undle-plugin</artifactId>
-                    <extensions>true</extensions>
-                </plugin>
-            </plugins>
-            <pluginmanagement>
+            <pluginManagement>
                 <plugins>
                     <plugin>
-                        <groupid>org.apache.maven.plugins</groupid>
-                        <artifactid>maven-compiler-plugin</artifactid>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
                         <configuration>
                             <source>1.6</source>
                             <target>1.6</target>
                         </configuration>
                     </plugin>
                     <plugin>
-                        <groupid>org.apache.maven.plugins</groupid>
-                        <artifactid>maven-jar-plugin</artifactid>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jar-plugin</artifactId>
                         <version>2.4</version>
                         <executions>
                             <execution>
@@ -156,8 +149,8 @@
                         </executions>
                     </plugin>
                     <plugin>
-                        <groupid>org.apache.maven.plugins</groupid>
-                        <artifactid>maven-source-plugin</artifactid>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
                         <version>2.2.1</version>
                         <executions>
                             <execution>
@@ -175,13 +168,13 @@
                         </executions>
                     </plugin>
                     <plugin>
-                        <groupid>org.apache.maven.plugins</groupid>
-                        <artifactid>maven-surefire-plugin</artifactid>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
                         <version>2.14.1</version>
                     </plugin>
                     <plugin>
-                        <groupid>org.apache.maven.plugins</groupid>
-                        <artifactid>maven-failsafe-plugin</artifactid>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-failsafe-plugin</artifactId>
                         <version>2.14.1</version>
                         <executions>
                             <execution>
@@ -194,10 +187,12 @@
                         </executions>
                     </plugin>
                     <plugin>
-                        <groupId>org.apache.felix</groupId>
-                        <artifactId>maven-undle-plugin</artifactId>
-                        <version>2.4.0</version>
-                    </plugin>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>maven-bundle-plugin</artifactId>
+                    <version>2.4.0</version>
+                    <extensions>true</extensions>
+                </plugin>
+                
                 </plugins>
 		</pluginManagement>
 	</build>
