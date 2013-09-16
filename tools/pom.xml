@@ -9,7 +9,7 @@
 	<artifactId>jsonld-java-tools</artifactId>
 	<name>JSONLD Java :: Tools</name>
 	<description>JSON-LD Java tools</description>
-	<packaging>jar</packaging>
+	<packaging>bundle</packaging>
 
 	<dependencies>
 		<dependency>

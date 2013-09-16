@@ -9,7 +9,7 @@
 	<artifactId>jsonld-java-jena</artifactId>
 	<name>JSONLD Java :: Jena Integration</name>
 	<description>JSON-LD Java integration module for Jena</description>
-	<packaging>jar</packaging>
+   	<packaging>bundle</packaging>
 
 	<dependencies>
                 <dependency>

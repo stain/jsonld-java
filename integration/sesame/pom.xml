@@ -9,7 +9,7 @@
 	<artifactId>jsonld-java-sesame</artifactId>
 	<name>JSONLD Java :: Sesame Integration</name>
 	<description>JSON-LD Java integration module for Sesame</description>
-	<packaging>jar</packaging>	
+	<packaging>bundle</packaging>
 
 	<dependencies>
 		<dependency>

@@ -9,7 +9,7 @@
 	<artifactId>jsonld-java</artifactId>
 	<name>JSONLD Java :: Core</name>
 	<description>Json-LD core implementation</description>
-	<packaging>jar</packaging>	
+	<packaging>bundle</packaging>	
 
 	<dependencies>
 		<dependency>

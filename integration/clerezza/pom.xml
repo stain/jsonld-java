@@ -9,8 +9,7 @@
 	<artifactId>jsonld-java-clerezza</artifactId>
 	<name>JSONLD Java :: Clerezza Integration</name>
 	<description>JSON-LD Java integration module for Clerezza</description>
-	<packaging>jar</packaging>		
-
+	<packaging>bundle</packaging>
 	<developers>
 		<developer>
 			<name>Reto Bachmann-Gmür</name>
