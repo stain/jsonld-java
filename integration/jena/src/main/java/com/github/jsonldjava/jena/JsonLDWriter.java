@@ -91,8 +91,8 @@ class JsonLDWriter extends WriterDatasetRIOTBase {
             final Options opts = new Options(baseURI);
             opts.graph = false;
             opts.addBlankNodeIDs = false;
-            opts.useRdfType = true;
-            opts.useNativeTypes = true;
+            opts.useRdfType = false;
+            opts.useNativeTypes = false;
             opts.skipExpansion = false;
             opts.compactArrays = true;
             opts.keepFreeFloatingNodes = false;
